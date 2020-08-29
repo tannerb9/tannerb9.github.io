@@ -1368,12 +1368,12 @@ button {
   -webkit-transform: scale(1.125);
   -ms-transform: scale(1.125);
   transform: scale(1.125);
-  -moz-transition: -moz-transform 0.325s ease-in-out,
+  /* -moz-transition: -moz-transform 0.325s ease-in-out,
     -moz-filter 0.325s ease-in-out;
   -webkit-transition: -webkit-transform 0.325s ease-in-out,
     -webkit-filter 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out,
-    -ms-filter 0.325s ease-in-out;
+    -ms-filter 0.325s ease-in-out; */
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
   background-image: url("../../images/thaiArch.png");
   background-position: center;
@@ -1393,9 +1393,9 @@ body.is-article-visible #bg:after {
   filter: blur(0.2rem);
 }
 
-body.is-preload #bg:before {
+/* body.is-preload #bg:before {
   background-color: #000000;
-}
+} */
 
 /* Wrapper */
 
@@ -1461,14 +1461,14 @@ body.is-preload #bg:before {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-transition: -moz-transform 0.325s ease-in-out,
+  /* -moz-transition: -moz-transform 0.325s ease-in-out,
     -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   -webkit-transition: -webkit-transform 0.325s ease-in-out,
     -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
-    opacity 0.325s ease-in-out;
+    opacity 0.325s ease-in-out; */
   /* background-image: -moz-radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
