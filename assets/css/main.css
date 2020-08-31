@@ -2009,3 +2009,55 @@ body.is-article-visible #footer {
 body.is-preload #footer {
   opacity: 0;
 }
+
+@media (max-width: 540px) {
+  .photo-column {
+    flex-basis: 45%;
+  }
+
+  .slideshow-container {
+    width: 65%;
+  }
+
+  .column > h3 {
+    font-size: 3.5vw;
+  }
+
+  .repertoire-description {
+    margin-bottom: 1% !important;
+    font-size: 3.25vw;
+  }
+
+  .repertoire-list {
+    font-size: 3.1vw;
+  }
+
+  .text-column > p,
+  .text-column > ol {
+    letter-spacing: 1.25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-me-1 {
+    flex-basis: 60%;
+    margin-left: 2%;
+    margin-bottom: 7%;
+  }
+
+  .about-me-2 {
+    margin: 0 2% 2%;
+  }
+
+  .photo-column > img {
+    width: 100%;
+  }
+
+  .text-column > p:first-of-type {
+    margin-bottom: 4%;
+  }
+
+  .about-me-2 > * {
+    letter-spacing: 1.25px;
+  }
+}
