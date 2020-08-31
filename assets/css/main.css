@@ -28,7 +28,7 @@
 .photo-column > img {
   width: 100%;
   height: auto;
-  filter: drop-shadow(0px 1px 5px #2e2e2e);
+  filter: drop-shadow(3px 5px 3px #2e2e2e);
 }
 
 @media (max-width: 376px) {
@@ -44,8 +44,8 @@
 
 /* Slideshow container */
 .slideshow-container {
-  width: 180px;
-  height: 320px;
+  width: 80%;
+  height: auto;
   position: relative;
   margin: auto;
 }
@@ -53,6 +53,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
+  filter: drop-shadow(4px 5px 3px #2e2e2e);
 }
 
 /* Next & previous buttons */
