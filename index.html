@@ -63,64 +63,61 @@
         <!-- Work -->
         <article id="work">
           <h2 class="major">Work</h2>
-          <!-- <span class="image main"
-            ><img src="images/pic02.jpg" alt=""
-          /></span> -->
-          <div class="slide-container">
-            <span id="slider-image-1"></span>
-            <span id="slider-image-2"></span>
-            <span id="slider-image-3"></span>
-            <span id="slider-image-4"></span>
-            <span id="slider-image-5"></span>
-            <div class="image-container">
-              <img
-                src="images/RecipeList.png"
-                alt=""
-                class="slider-image"
-              />
-              <img
-                src="images/RecipeCard.png"
-                alt=""
-                class="slider-image"
-              />
-              <img
-                src="images/EditForm.png"
-                alt=""
-                class="slider-image"
-              />
-              <img
-                src="images/TestList.png"
-                alt=""
-                class="slider-image"
-              />
-              <img
-                src="images/VersionList.png"
-                alt=""
-                class="slider-image"
-              />
-              <div class="button-container">
-                <a href="#slider-image-1" class="slider-button"></a>
-                <a href="#slider-image-2" class="slider-button"></a>
-                <a href="#slider-image-3" class="slider-button"></a>
-                <a href="#slider-image-4" class="slider-button"></a>
-                <a href="#slider-image-5" class="slider-button"></a>
+          <!-- Repertoire Container-->
+          <div class="repertoire-container">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <img src="images/RecipeList.png" style="width: 100%" />
+                <!-- <div class="text">Caption Text</div> -->
               </div>
+
+              <div class="mySlides fade">
+                <img src="images/RecipeCard.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/RecipeEdit.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/TestList.png" style="width: 100%" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images/VersionList.png" style="width: 100%" />
+              </div>
+
+              <!-- Next and previous buttons; probably removing since has nav dots -->
+              <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
             </div>
+
+            <!-- The dots/circles -->
+            <div class="carousel-nav" style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <h3>Repertoire</h3>
+            <p class="repertoire-description">
+              A sleek recipe manager that differentiates finalized
+              recipes from test recipes to help easily track the
+              progression of a recipe until it's finalized. Users can
+              also create multiple versions of the same test recipe to
+              easily view differences or review notes between versions.
+            </p>
+            <ol>
+              <li class="repertoire-list">
+                Single-page app with full CRUD functionality created
+                using React, JSON server, and styled with CSS
+              </li>
+            </ol>
           </div>
-          <h3>Repertoire</h3>
-          <p class="repertoire-description">
-            A sleek recipe manager that differentiates finalized recipes
-            from test recipes to help easily track the progression of a
-            recipe until it's finalized. Users can also create multiple
-            versions of the same test recipe to easily view differences
-            or review notes between versions.
-          </p>
-          <ol>
-            <li class="repertoire-list">
-              Single-page app with full CRUD functionality created using
-              React, JSON server, and styled with CSS
-            </li>
-          </ol>
         </article>
 
         <!-- About -->
