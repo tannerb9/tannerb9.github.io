@@ -167,6 +167,10 @@
   letter-spacing: 1px;
 }
 
+.repertoire-list {
+  font-family: Cormorant, sans-serif;
+}
+
 .repertoire-description,
 .repertoire-container > ol {
   margin-bottom: 1%;
@@ -2043,6 +2047,10 @@ body.is-preload #footer {
     flex-basis: 60%;
     margin-left: 2%;
     margin-bottom: 5%;
+  }
+
+  .column > h3 {
+    font-size: 3vw;
   }
 
   .intro-photo {
