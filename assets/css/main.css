@@ -31,7 +31,6 @@
 
 .about-container {
   display: flex;
-  padding-bottom: 0.75rem;
 }
 
 .about-me-2 > * {
@@ -1983,7 +1982,7 @@ body.is-preload #header .content .inner {
 
 @media screen and (max-width: 736px) {
   #main article {
-    padding: 3.5rem 2rem 0.5rem 2rem;
+    padding: 3.5rem 2rem 1.5rem 2rem;
   }
 
   #main article .close:before {
@@ -1997,7 +1996,10 @@ body.is-preload #header .content .inner {
 
 @media screen and (max-width: 480px) {
   #main article {
-    padding: 3rem 1.5rem 0.5rem 1.5rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+  }
+  #work {
+    padding-bottom: 0.5rem !important;
   }
 }
 
@@ -2078,6 +2080,10 @@ body.is-preload #footer {
     margin-right: 2%;
   }
 
+  #intro > p:first-of-type {
+    margin-bottom: 2%;
+  }
+
   #about > h2,
   #work > h2 {
     margin-left: 2%;
@@ -2105,5 +2111,11 @@ body.is-preload #footer {
 
   .repertoire-container > .row > div:last-of-type {
     margin: 0 2%;
+  }
+}
+
+@media (min-width: 601px) {
+  #about {
+    padding-bottom: 3rem !important;
   }
 }
