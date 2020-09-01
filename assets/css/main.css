@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.mySlides > img {
+  border-radius: 9px;
+}
+
 .app-info {
   justify-content: center;
 }
@@ -2107,6 +2111,6 @@ body.is-preload #footer {
 
 @media (max-width: 520px) {
   .app-info > h3 {
-    font-size: 4vh;
+    font-size: 3.5vh;
   }
 }
