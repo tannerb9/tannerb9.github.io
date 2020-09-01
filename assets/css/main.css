@@ -2023,10 +2023,6 @@ body.is-preload #footer {
     flex-basis: 45%;
   }
 
-  .slideshow-container {
-    width: 65%;
-  }
-
   .column > h3 {
     font-size: 3.5vw;
   }
