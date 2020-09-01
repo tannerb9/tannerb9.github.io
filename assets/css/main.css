@@ -169,6 +169,7 @@
   margin-bottom: 2%;
   font-family: Cormorant serif;
   font-weight: lighter;
+  font-size: 1em;
 }
 
 .carousel-nav {
@@ -2062,7 +2063,7 @@ body.is-preload #footer {
   }
 
   .column > h3 {
-    font-size: 3vw;
+    /* font-size: 3vw; */
     margin-top: 4%;
   }
 
