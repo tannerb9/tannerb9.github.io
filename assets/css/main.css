@@ -2061,6 +2061,7 @@ body.is-preload #footer {
 
   .column > h3 {
     font-size: 3vw;
+    margin-top: 4%;
   }
 
   .intro-photo {
@@ -2101,5 +2102,11 @@ body.is-preload #footer {
 
   .repertoire-container > .row > div:last-of-type {
     margin: 0 2%;
+  }
+}
+
+@media (max-width: 520px) {
+  .app-info > h3 {
+    font-size: 4vh;
   }
 }
