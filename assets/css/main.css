@@ -167,6 +167,8 @@
 .column > h3 {
   color: white;
   margin-bottom: 2%;
+  font-family: Cormorant serif;
+  font-weight: lighter;
 }
 
 .carousel-nav {
