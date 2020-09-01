@@ -161,6 +161,13 @@
 }
 
 .repertoire-description,
+.repertoire-list {
+  font-family: Montserrat, sans-serif;
+  font-size: smaller;
+  letter-spacing: 1px;
+}
+
+.repertoire-description,
 .repertoire-container > ol {
   margin-bottom: 1%;
 }
@@ -192,7 +199,7 @@
   list-style-type: square;
   padding-left: 0px;
   letter-spacing: 1px;
-  font-size: 14px;
+  margin-bottom: 2rem;
 }
 
 #intro > p,
@@ -1055,7 +1062,6 @@ input[type="radio"] + label:before {
 
 ol {
   list-style: decimal;
-  margin: 0 0 2rem 0;
   padding-left: 1.25em;
 }
 
@@ -2029,16 +2035,6 @@ body.is-preload #footer {
 
   .repertoire-description {
     margin-bottom: 1% !important;
-    font-size: 3.25vw;
-  }
-
-  .repertoire-list {
-    font-size: 3.1vw;
-  }
-
-  .text-column > p,
-  .text-column > ol {
-    letter-spacing: 1.25px;
   }
 }
 
@@ -2074,6 +2070,10 @@ body.is-preload #footer {
   }
 
   .text-column > p:first-of-type {
+    margin-bottom: 1%;
+  }
+
+  .about-me-2 > p:first-of-type {
     margin-bottom: 4%;
   }
 
