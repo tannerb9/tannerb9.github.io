@@ -7,6 +7,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.intro-photo {
+  margin-bottom: 3.25%;
+}
+
+.intro-photo > img {
+  width: 100%;
+}
+
 .about-container {
   display: flex;
   padding-bottom: 0.75rem;
@@ -2042,7 +2050,21 @@ body.is-preload #footer {
   .about-me-1 {
     flex-basis: 60%;
     margin-left: 2%;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
+  }
+
+  .intro-photo {
+    width: 95%;
+  }
+
+  #intro > * {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #about > h2,
+  #work > h2 {
+    margin-left: 2%;
   }
 
   .about-me-2 {
@@ -2059,5 +2081,9 @@ body.is-preload #footer {
 
   .about-me-2 > * {
     letter-spacing: 1.25px;
+  }
+
+  .repertoire-container > .row > div:last-of-type {
+    margin: 0 2%;
   }
 }
