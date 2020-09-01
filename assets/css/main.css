@@ -2047,10 +2047,6 @@ body.is-preload #footer {
     flex-basis: 45%;
   }
 
-  .column > h3 {
-    font-size: 3.5vw;
-  }
-
   .repertoire-description {
     margin-bottom: 1% !important;
   }
@@ -2106,11 +2102,5 @@ body.is-preload #footer {
 
   .repertoire-container > .row > div:last-of-type {
     margin: 0 2%;
-  }
-}
-
-@media (max-width: 520px) {
-  .app-info > h3 {
-    font-size: 3.5vh;
   }
 }
