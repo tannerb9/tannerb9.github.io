@@ -2056,6 +2056,7 @@ body.is-preload #footer {
   .intro-photo {
     width: 96%;
     margin: auto;
+    margin-bottom: 3%;
   }
 
   #intro > * {
